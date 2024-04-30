@@ -8,7 +8,7 @@ body {
     flex-direction: column;
 }
 
-header {
+.header {
     background-color: #372c2E;
     display: flex;
     justify-content: space-evenly;
