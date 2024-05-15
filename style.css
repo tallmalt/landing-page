@@ -43,7 +43,7 @@ a {
 
 .hero-main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 55px;
     padding: 60px 20%
@@ -57,7 +57,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 600px;
+    width: 550px;
 }
 
 .main-heading {
@@ -94,4 +94,33 @@ a {
     height: 100%;
     border-radius: 16px;
     
+}
+
+.info-header {
+    text-align: center;
+    font-family: Merriweather, Georgia, serif;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 80px;
+    padding: 20px 15% 40px;
+}
+
+.info-image {
+    border: solid #563727 5px;
+    border-radius: 16px;
+}
+
+.info-box {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 250px;
 }
