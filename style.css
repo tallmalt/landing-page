@@ -10,7 +10,6 @@ body {
 
 .header {
     background-color: #372c2e;
-    padding-bottom: 80px;
 }
 
 
@@ -18,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 16px 20% 0px
+    padding: 16px 15% 0px;
 }
 
 .logo {
@@ -46,7 +45,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     gap: 55px;
-    padding: 60px 20%
+    padding: 60px 15% 100px;
     
 }
 
@@ -106,7 +105,7 @@ a {
 
 .info-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 40px;
     margin-top: 80px;
