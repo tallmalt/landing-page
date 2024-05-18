@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .header {
@@ -57,6 +58,7 @@ a {
     justify-content: space-between;
     align-items: flex-start;
     width: 550px;
+    text-align: start;
 }
 
 .main-heading {
@@ -69,7 +71,7 @@ a {
 .hero-text {
     color: #de9e48;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 .hero-button {
@@ -82,7 +84,9 @@ a {
 }
 
 .hero-image-container {
-    width: 600px;
+    flex: 0 1 45%;
+    width: 550px;
+    min-width: 460px;
     height: auto;
     border: solid #563727 3px;
     border-radius: 16px;
