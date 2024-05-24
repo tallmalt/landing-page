@@ -81,6 +81,7 @@ a {
     border: solid #563727 3px;
     border-radius: 12px;
     padding: 12px 24px;
+    cursor: pointer;
 }
 
 .hero-image-container {
@@ -184,6 +185,7 @@ a {
     border: solid #f9faf8 3px;
     border-radius: 12px;
     padding: 12px 24px;
+    cursor: pointer;
 }
 
 .footer {
