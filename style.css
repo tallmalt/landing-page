@@ -9,6 +9,16 @@ body {
     text-align: center;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: #f9faf8
+}
+
+.hero-button:hover,
+.action-button:hover {
+  background-color: #de9e48;
+}
+
 .header {
     background-color: #372c2e;
 }
@@ -186,6 +196,7 @@ a {
     border-radius: 12px;
     padding: 12px 24px;
     cursor: pointer;
+    
 }
 
 .footer {
